@@ -64,10 +64,12 @@
 	
 html, body {background: #293241; font-family: Tahoma, Geneva, sans-serif; font-size: 16px; color: #e0fce7; font-weight:normal;}
 
-p, ul, h1, h2, h3, figcaption {
+p, ul, h1, h2, h3, figcaption, t {
 	margin-left: 100px;
 	margin-right: 100px;
+	color: #293241;
 }
+
 
 h1 {
 	text-transform: uppercase;
@@ -79,6 +81,7 @@ h1 {
 h2 {
 	font-weight: normal;
 	font-size: 26;
+	color: #E0FBFC;
 }
 
 h3 {
