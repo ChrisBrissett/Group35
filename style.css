@@ -66,7 +66,13 @@ img.resize {
 	max-width: 50%;
 	max-height: 50%;
 }
-	
+img.resizesmall {
+	max-width: 12%;
+	max-height: 12%;
+	float: right;
+	margin-right: 20%;
+
+}	
 html, body {background: #293241; font-family: Tahoma, Geneva, sans-serif; font-size: 16px; color: #e0fce7; font-weight:normal;}
 
 p, ul, h1, h2, h3, figcaption, t {
@@ -104,15 +110,22 @@ img {
 	display: block;
 	margin-left: auto;
 	margin-right: auto;
+	width: 75%;
+}
+img.border {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
 	border-radius: 12px;
 	width: 75%;
 	border: 5px solid;
 	border-color: #293241;
 }
-
 figcaption {
 	line-height: 50px;
 	text-align: center;
+	font-size: small;
+	font-style: italic;
 }	
 
 a:link {
