@@ -62,15 +62,18 @@
 	padding-bottom: 50px;
 }
 img.resize {
-	max-width: 50%;
-	max-height: 50%;
+	max-width: 75%;
+	max-height: 75%;
 }
-	
+
+header {
+	color: whitesmoke;
+}
 html, body {background: #293241; font-family: Tahoma, Geneva, sans-serif; font-size: 16px; color: #e0fce7; font-weight:normal;}
 
 p, ul, h1, h2, h3, figcaption, t {
-	margin-left: 100px;
-	margin-right: 100px;
+	margin-left: auto;
+	margin-right: auto;
 	color: #293241;
 }
 
@@ -100,6 +103,13 @@ hr {
 }
 
 img {
+	display:block;
+	margin-left: auto;
+	margin-right: auto;
+
+}
+
+img.border {
 	display: block;
 	margin-left: auto;
 	margin-right: auto;
@@ -108,7 +118,6 @@ img {
 	border: 5px solid;
 	border-color: #293241;
 }
-
 figcaption {
 	line-height: 50px;
 	text-align: center;
