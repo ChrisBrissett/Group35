@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html>
+<link type="text/css" rel="stylesheet" href="style.css">
+
+<body>
+
+    <div class="header">
+        <div class="row">
+            <div class="leftcolumn">
+                <img src="group-logo.png" alt="Group Logo" width="500">
+            </div>
+            <div class="rightcolumn">
+
+                <p>
+                <h2>Ex Machina is:</h2>
+                <br>
+                <a target="_blank" href="https://nadettew.github.io/IIT/#header">Bernadette Wong - S3871501</a>
+                <br>
+                <a target="_blank" href="https://chrisbrissett.github.io/assignment1/">Christopher Brisset -
+                    S3863017</a>
+                <br>
+                <a target="_blank" href="https://kbn-98.github.io/ePortfolio/index.html">Kayla Noble - S3871490</a>
+                <br>
+                <a target="_blank" href="https://paulbryantsmith.github.io/ePortfolio">Paul Bryant-Smith -
+                    S3871668</a>
+                <br>
+                <a target="_blank" href="https://richfd.github.io/about-me">Richard Edwards - S3875836</a>
+                </p>
+            </div>
+        </div>
+    </div>
+
+    <div class="table">
+        <h1><b>Table of Contents<b></h1>
+        <ul>
+            <nav>
+                <a class="button" href="1.1index.html">Home</a>
+                <a class="button" href="1.2WhoWeAre.html">Who are we?</a>
+                <a class="button" href="1.3Tools.html">Tools</a>
+                <a class="button" href="1.4ProjectIdea.html">Project Idea: Get a Clue</a>
+                <a class="button" href="3.0References.html">References: More Info</a>
+            </nav>
+        </ul>
+    </div>
+    <br>
+    <div class="table">
+        <h1><b>Project Idea Contents<b></h1>
+        <ul>
+            <nav>
+                <a class="button" href="2.1DetailedDescription.html">Detailed Description</a>
+                <a class="button" href="2.2PlansAndProgress.html">Our Plan</a>
+                <a class="button" href="2.3Roles.html">Our Roles</a>
+                <a class="button" href="2.4ScopesToolsTesting.html">Our Scope, Tools, Testing</a>
+                <a class="button" href="2.5Timeframe.html">Timeframe</a>
+                <a class="button" href="2.6RisksCommunicationSkills.html">Risks, Communication, Skills</a>
+            </nav>
+        </ul>
+    </div>
+    <div class="panel-1">
+        <h1>Scopes and Limits</h1>
+        <div class="container">
+            <p>As we review the overall scope of the project, we understand we will have certain limitations to what we
+                can implement within the initial project period up to week 6. As we are looking to develop an
+                application which not only serves the basic functionality of replacing a scorecard in Cluedo, which
+                would be our initial release of version 1. In v1, we aim to be able to provide an experience much more
+                immersive which will incorporate card sharing amongst various other features. As we progress and add
+                additional features to the app, we aim to be able to develop the app in a way which allows incorporation
+                of numerous versions of not only the game Cluedo, but with the intention of being able to deploy for
+                other board games, some of which may be considered Retro; our goal is to revitalise the experience of
+                these games. As we progress through these steps will be able to show potential stakeholders how our app
+                has a market value for a moderate demographic of users.
+            </p>
+            <p>Initially we will not be able to release a full version of our desired app. We considered using Monaca <a
+                    target="_blank" href="3.0References.html">[1]</a>
+                as our initial development tool, however, after much consideration and review we decided to use
+                Xaramin <a target="_blank" href="3.0References.html">[2]</a>and the Android SDK studio <a
+                    target="_blank" href="3.0References.html">[3]</a>. As we chose
+                this path to begin our venture, our app will be
+                released first to the Google Play Store <a target="_blank" href="3.0References.html">[4]</a>leaving an
+                opportunity for the future development for the
+                Apple Store<a target="_blank" href="3.0References.html">[5]</a>. Although we aim to initially release to
+                Android devices, this provides us with the
+                opportunity to show the usefulness of our app. </p>
+
+        </div>
+    </div>
+    <br>
+    <div class="panel-1">
+        <h1>Tools and Technologies</h1>
+        <div class="container">
+            <h2>Code/App Develpment</h2>
+            <p>After review of feedback given and extensive research into finding a suitable cross platform developer,
+                we have decided to use Microsoft’s Visual Studio version 16.8.1, Android.Sdk.Manager version 4.1.1 &
+                Xamarin version 4.8.0 <a target="_blank" href="3.0References.html">[1] </a>. With this we will be
+                provided with a single, cross platform API (Application
+                Programming Interface) to develop code to be used across iOS and Android <a target="_blank"
+                    href="3.0References.html">[2]</a> using C# as the language.
+            </p>
+            <p>Xaramin extends .NET with tools and libraries designed specifically for building apps on iOS & Android.
+                Microsoft’s Visual Studio and Xaramin are free and require no licensing costs. We will use these
+                development tools along with GitHub to opensource and code we may require.
+            </p>
+            <p>To use this we will need access to a Desktop computer or laptop with access to the internet. As the
+                developer tools we will be using can be used on either Windows or macOS there will be no requirement to
+                use a dedicated operating system.
+            </p>
+            <p>To use this we will need access to a Desktop computer or laptop with access to the internet. As the
+                developer tools we will be using can be used on either Windows or macOS there will be no requirement to
+                use a dedicated operating system.
+            </p>
+
+            <h2>Storage/Connevtivity</h2>
+            <p>To store user information and records we will use Amazon Web Services (AWS) Mobile app Backend <a
+                    target="_blank" href="3.0References.html">[3]</a>to
+                access Amazon Cognito User Pools. This will allow users of the app to sign up and sign in to the
+                application. Here is a diagram from Amazon depicting their cloud database structure.
+            </p>
+            <img class="border" src="fig1.png">
+            <figcaption>[Fig 1] (AWS Mobile App Backend with Hybrid Apps | Amazon Web Services 2016)</figcaption>
+            <p>We will use AWS GameLift to manage the servers and allow interconnectivity of the game. As our app
+                requires interaction between multiple devices in real-time, this is a core component to ensuring the
+                viability of the product. We aim to achieve this by using the Amazon GameLift SDK Version 4.0.2 <a
+                    target="_blank" href="3.0References.html">[4]</a>.
+                Below is a basic database diagram from AWS GameLift. </p>
+            <img class="border" src="fig2.png">
+            <figcaption>[Fig 2] (Dedicated Game Server Hosting - Amazon GameLift - Amazon Web Services 2020)
+            </figcaption>
+            <p>As we are using a cloud-based solution to store and connect users we do not need any physical hardware to
+                achieve this. We have, however, considered that we will need our own database to store on AWS we
+                designed a very basic data structure of our own. This covers our most necessary information such as user
+                IDs, game IDs, account data, and history. </p>
+            <img class="border" src="fig3.png">
+            <figcaption>[Fig 3]</figcaption>
+        </div>
+    </div>
+    <br>
+    <div class="panel-1">
+        <h1>Testing</h1>
+        <div class="container">
+            <p>Our app will go through continuous testing throughout the design and build process. During the build, the
+                app will be debugged and trialled as if it was available on the app store. Our commitment to developing
+                a functional and engaging app needs to be closely reviewed to confirm that we are on the right track. We
+                will be focusing on accessibility, future game compatibility and overall design. We’ll put our app
+                through testing phases: Alpha and Beta. The Alpha phase will be closed off to friends and family and
+                will ideally include users both with and without Cluedo experience, as well as a variety of ages and
+                confidence levels with technology. Doing this we ensure a varied testing pool, and a more inclusive and
+                accessible end product. During testing we have developed our own metrics in addition to taking
+                suggestion from Todd DeCapua, the Executive of JP Morgan who states that “-it is important to gather
+                both front- and back-end metrics. Client-side measures are vital to understanding the front-end user
+                experience.” <a target="_blank" href="3.0References.html">(DeCapua 2015)</a></p>
+
+            <p>
+                To this end we have this list of metrics to test for:</p>
+            <ul>
+                <li>Application response time</li>
+                <li>App crashes</li>
+                <li>Data retrieval and storing accuracy</li>
+            </ul>
+            <p>In-app deduction logic accuracy After our closed Alpha, we’ll be pushing the app into an open Beta,
+                where anyone who has been following our development will be able to download and test it, providing
+                feedback accordingly. When fully released, our feedback will be gained through the number of individual
+                downloads, along with app reviews after people appreciate the uniqueness of the app.
+            </p>
+        </div>
+    </div>
+
+</body>
+
+</html>

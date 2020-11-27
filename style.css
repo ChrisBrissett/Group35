@@ -1,7 +1,4 @@
 .container{
-	background-image:url(containerbg.jpg);
-	background-attachment: fixed;
-	background-repeat: no-repeat;
 	background-size: 100vw;
 	margin: auto;
 	padding: 30px;
@@ -39,8 +36,12 @@
 	border-left: 5px #3D5A80 solid;
 	border-bottom: 5px #2B3F59 solid;
 	padding: 20px;
-	margin: 80px;
+	margin-left: 20%;
+	margin-right: 20%;
+	margin-top: 50px;
+	margin-bottom: 50px;
 	color: #06081A;
+
 }
 .row:after {
 	content: "";
@@ -69,6 +70,64 @@ img.resize {
 header {
 	color: whitesmoke;
 }
+
+.timeframe  {
+	border-collapse:collapse;
+	border-color:#aaa;
+	border-spacing:0;
+}
+
+.timeframe td{
+	background-color:#fff;
+	border-color:#aaa;
+	border-style:solid;
+	border-width:1px;
+	color:#333;
+	font-family:Arial, sans-serif;
+	font-size:14px;
+	overflow:hidden;
+	padding:10px 5px;
+	word-break:normal;
+}
+
+.timeframe th{
+	background-color:#EE6C4D;
+	border-color:#aaa;
+	border-style:solid;
+	border-width:1px;
+	color:#fff;
+	font-family:Arial, sans-serif;
+	font-size:14px;
+	font-weight:normal;
+	overflow:hidden;
+	padding:10px 5px;
+	word-break:normal;
+}
+
+.timeframe .tg-baqh{
+	text-align:center;
+	vertical-align:center
+}
+
+.timeframe .tg-uog8{
+	border-color:inherit;
+	text-align:center;
+	text-decoration:underline;
+	vertical-align:center;
+}
+
+.timeframe .tg-0lax{
+	text-align:center;
+	vertical-align:center;
+}
+
+.timeframe .tg-nk0m{
+	font-family:Tahoma, Geneva, sans-serif !important;
+	font-size:16px;
+	text-align:center;
+	vertical-align:top;
+}
+
 html, body {background: #293241; font-family: Tahoma, Geneva, sans-serif; font-size: 16px; color: #e0fce7; font-weight:normal;}
 
 p, ul, h1, h2, h3, figcaption, t {
@@ -83,6 +142,7 @@ h1 {
 	text-shadow:-2px 2px #2B3F59;
 	letter-spacing: 2px;
 	color: #E0FBFC;
+	margin-left: 3%;
 	}
 
 h2 {
@@ -120,7 +180,9 @@ img.border {
 }
 figcaption {
 	line-height: 50px;
+	font-size: 12px;
 	text-align: center;
+	font-style: italic;
 }	
 
 a:link {
